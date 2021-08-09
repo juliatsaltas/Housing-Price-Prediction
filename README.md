@@ -16,6 +16,7 @@ The scores of the following regression models will be compared to both find the 
 - AdaBoost with Decision Tree Regressor
 - Support Vector Machine Regressor
 
+In addition, principal component analysis was applied to the linear regression model proving the best score outcome compared to the other regularization methods.
 
 ## Code
 ```
@@ -27,7 +28,7 @@ The scores of the following regression models will be compared to both find the 
 
 ## Data Dictionary
 
-
+There are 75 total features included in the train and test files. Details are located at the [Kaggle Challenge](https://www.kaggle.com/t/2dde5663e03b4165b853ff65e723c26d) website.
 
 ## Data Files
 
@@ -35,24 +36,12 @@ The scores of the following regression models will be compared to both find the 
 |__ data
 |   |__ train.csv #original data from Kaggle
 |   |__ test.csv #original data from Kaggle
-|   |__ ames_clean.csv
+|   |__ ames_clean.csv #cleaned train data
 |   |__ X_test.csv
 |   |__ X_train.csv
 |   |__ X_test.csv
 |   |__ y_train.csv
 |   |__ y_test.csv
-|__ images
-```
-## Data Files
-```
-SAVE EDA AS IMAGES
-|   |__ coefficients.png
-|   |__ neighborhoods.png
-|   |__ predictions.png
-|__ presentation.pdf
-|__ README.md
-```
-
 
 
 
