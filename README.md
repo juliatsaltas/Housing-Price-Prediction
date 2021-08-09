@@ -1,4 +1,4 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
+# Project 2 - Ames Housing Data Pricing Prediction
 
 ## Building a Home Valuation Model
 Automated valuation models are helpful tools for everyday people to use to closely estimate the value of their home or value of a desired home. Soon-to-be home buyers and sellers want to ensure they are in a fair value deal, and using online valuation tools, like the one here from [Remax](https://www.remax.com/home-value-estimates), helps with that process. The tool in this example for Remax likely aggregates the most recent housing data and uses the data to predict the price of the home today. However, these tools are inherently imperfect as different machine learning tools have different levels of accuracy.
